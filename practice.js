@@ -73,3 +73,18 @@ for (let a = 1; a <= row; a++) {
     }
     console.log(stars);
 }
+
+
+// const Arr= [1,2,3,4,5,]
+// const maxArr = Arr.reduce((acccumulator, currentValue) => 
+//     Math.max(acccumulator, currentValue, -Infinity)
+// )
+// console.log(`Maximum value in the array ${maxArr}`);
+
+const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+const fruitCount =fruits.reduce((acccumulator, currentValue) => {
+    acccumulator[currentValue] = (acccumulator[currentValue] || 0)+1;
+    return acccumulator;
+},{})
+console.log(fruitCount);
+
