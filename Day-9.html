@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        .color{
+            background-color: #ff0000;
+            font-style: italic;
+            font-weight: bolder;
+        }  
+
+        #lastDiv{
+            width: 50px;
+            height: 50px;
+            border: 5px solid #ff0000;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <img id = "myCar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmchCbsHihdX8bpg4S3PnYEF3mrAbZIFEvCw&s" alt="Last car">
+    <div class = "div1">
+        <h1 class="heading">Hello </h1>
+           <p id = "myparagraph">Original Text</p>
+           <p id = "para1">This is the para that needed to be removed</p>
+    </div>
+
+    <div class="div2">
+        <ul id = "list">
+            <li>List 1</li>
+            <li>List 2</li>
+        </ul>
+    </div>
+
+    <div id="div3">
+        <p>This is first para</p>
+        <p>This is last para</p>
+    </div>
+
+    <div class="div4">
+        <p id = "myPara">Here a custom para</p>
+        <button onclick = "addStyle()">Add Style</button>
+        <button onclick = "removeStyle()">Remove Style</button>
+    </div>
+
+    <div class="div5">
+        <p id = "mySecPara">It is a original paragraph.</p>
+        <button id ="change">Click To Change</button>
+    </div>
+
+    <div id = "lastDiv">
+        Hover Over Me ! .....
+    </div>
+
+ <script src = "Day-9.js"></script>
+</body>
+</html>
+

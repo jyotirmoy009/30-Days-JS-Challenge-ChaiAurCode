@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        #myImage{
+            width: 200px;
+            height: 200px;
+            margin-top: 30px;
+        }
+
+        #element{
+            width: 250px;
+            height: 250px;
+            background-color: aqua;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div2,.div3,.div4{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p id = "paragraph">Original Paragraph</p>
+    <button id ="change">Click To Change</button>
+
+    <div class="div1">
+        <img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmchCbsHihdX8bpg4S3PnYEF3mrAbZIFEvCw&s" alt="Car Image">
+    </div>
+
+    <div id="element">
+        Hover Over Me! ...
+    </div>
+
+    <div class = "div2">
+        <input type="text" id="myInput" placeholder="Type anything" autocomplete="off">
+    </div>
+    <div class="div3">
+        <input type="text" id="input" placeholder="Type something it will display below" autocomplete="off">
+        <p id ="myText">Current Value will be displayed here.</p>
+    </div>
+    <div>
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class ="div4">
+        <select id="mySelect">
+            <option value="" >Select one</option>
+            <option value="Item 1">Item 1</option>
+            <option value="Item 2">Item 2</option>
+            <option value="Item 3">Item 3</option>
+            <option value="Item 4">Item 4</option>
+        </select>
+        <p id ="display">Selected value will be displayed here.</p>
+    </div>
+    <div>
+        <ul id="myList">
+            <li>Jyotirmoy</li>
+            <li>Raj</li>
+            <li>Parthiv</li>
+        </ul>
+    </div>
+    <div>
+        <ul id="parent-list">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+    <script src = "Day-10.js"> </script>
+</body>
+</html>
