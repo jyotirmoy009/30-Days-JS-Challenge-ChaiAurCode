@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+
+height: 100%;
+}
+
+body{
+    background-color: #E2E2E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.main-container{
+ 
+    border-radius: 30px;
+    box-shadow: -1px 10px 50px -30px;
+    height:700px;
+    width: 97vw;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+
+/* Navbar styling */
+
+.navbar{
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 94vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+height: 100%;
+width: 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #300E0E;
+border-radius: 24px;
+box-shadow:-1px 1px 30px -20px ;
+
+}
+
+.logo p{
+    color: white;
+}
+
+
+.menu{
+height: 100%;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #FFFFFF;
+border-radius: 24px;
+box-shadow:-1px 1px 30px -20px ;
+}
+
+.menu div{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.menu div p{
+    font-size: 0.8em;
+    color: rgb(50, 50, 50);
+}
+
+.chats{
+    width: 5vw;
+}
+
+.calender {
+    width: 5.5vw;
+}
+.setting{
+    width: 5vw;
+}
+
+
+.home img{
+    width: 1.6vw;
+}
+
+.calender img{
+    width: 1.2vw;
+}
+.chats img{
+    width: 1.3vw;
+}
+.activity img{
+    width: 1.3vw;
+}
+
+.setting img{
+    width: 1.8vw;
+}
+
+
+
+.user{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    box-shadow:-1px 1px 30px -20px ;
+}
+
+.searchInp{
+width: 15vw;
+background-color: #e9e9e9;
+height: 70%;
+display: flex;
+align-items: center;
+border-radius: 24px;
+
+}
+.searchInp img{
+    height: 75%;
+    width: 1.5vw;
+        margin-right: 8px;
+    margin-left: 8px;
+}
+
+.searchInp input {
+    border: none;
+    background: none    ;
+}
+
+.userAvtar{
+    width: 2.4vw;
+    height: 79%;
+    border-radius: 30px;
+    background-image: url(../Assests/Logo/avtar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* App styling */
+.app-container{
+height: 90%;
+width: 93%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+
+.showTask{
+    width: 60%;
+    height: 95%;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    box-shadow:-1px 1px 30px -25px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.wallpaper{
+    height: 50%;
+    width: 95%;
+    border-radius: 24px;
+    background-image:linear-gradient(to bottom right,rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url(../Assests/Background/mountain-landscape-with-hot-air-balloon-dawn-generative-ai.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:-10px 10px 40px -15px ;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+
+
+.wallpaper div{
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.wallpaper div h2{
+    font-size: 1.8vw;
+    margin-bottom: 10px;
+}
+
+.wallpaper div h1{
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+.wallpaper div p{
+    font-size: 1.5vw;
+}
+
+.dispTask{
+    height: 40%;
+    width: 95%;
+    border-radius: 24px;
+    background-color: #bc3b14d0;
+    box-shadow:10px -1px 40px -15px ;
+    position: relative;
+ 
+}
+.taskHeading{
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.7em;
+} 
+
+
+
+     #dispTaskContainer{
+margin-left: 19px;
+width: 95%;
+height: 70%;
+background-color: #ff8661;
+border-radius: 30px;
+color: white;
+padding-top: 10px;
+position: relative;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+} 
+
+
+
+
+
+#taskMenu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top:60px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+#taskMenu img{
+    width: 1.6vw;
+}
+
+#taskMenu button{
+    background-color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#taskMenu button:hover{
+    transform: rotate(-30deg);
+}
+
+
+
+.createTask{
+    width: 38%;
+    height: 95%;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    box-shadow:-1px 1px 30px -25px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.addTaskContainer{
+    height: 40%;
+    width: 95%;
+    border-radius: 24px;
+    background-image: url(../Assests/Background/Brown\ &\ Coral\ Aesthetic\ Leaf\ Desktop\ Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: #90240A;
+}
+.heading h1{
+    margin-left: 20px;
+}
+
+#input-field{
+    height: 45%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ #input-field div{
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+#input-field div input{
+    border: none;
+    width: 10vw;
+    height: 45px;
+    padding-left: 20px;
+}
+
+#title{
+    border-top-left-radius:24px ;
+    /* border-bottom-left-radius:24px ; */
+}
+#task{
+    /* border-top-right-radius:24px ; */
+    border-bottom-right-radius:24px ;
+    
+}
+
+#input-field input::placeholder{
+font-style: italic;
+font-size: 1.2em;
+}
+#input-field button{
+    border: none;
+    width:6vw;
+    height: 30px;
+    background-color: #C85F3F;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.allTaskListContainer{
+    height: 50%;
+    width: 95%;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 20px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  box-shadow:0px 0px 40px -15px ;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.allTaskListContainer div {
+    border-bottom: 0.9px solid grey; 
+    width: 90%;
+    margin-top: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+
+
+.allTaskListContainer div h2{
+    color: #C85F3F;
+    margin-bottom: 5px;
+}
+
+.allTaskListContainer div p{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.allTaskListContainer div:hover {
+    background-color: #90240A;
+    border: none;
+    color: white;
+    padding: 2px 5px 2px 20px;
+    border-radius: 15px;
+}
+
+
+
+.allTaskListContainer div:hover h2{
+    color: white;
+}

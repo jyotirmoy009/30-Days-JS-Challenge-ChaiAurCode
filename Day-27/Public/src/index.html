@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <nav class="navbar">
+            <div class="logo">
+                <p>Task Notes</p>
+            </div>
+            <div class="menu">
+                <div class="home">
+                    <img src="../Assests/icons/HomeDark.png" alt="">
+                    <p>Home</p>
+                </div>
+                <div class="calender">
+                    <img src="../Assests/icons/activitydark.png" alt="">
+                    <p>Activity</p>
+                </div>
+                <div class="activity">
+                    <img src="../Assests/icons/calenderdark.png" alt="">
+                    <p>Calender</p>
+                </div>
+                <!-- <div class="chats">
+                    <img src="../Assests/icons/chatDark.png" alt="">
+                    <p>Chats</p>
+                </div> -->
+              
+                <div class="setting">
+                    <img src="../Assests/icons/settingdark.png" alt="">
+                    <p>Setting</p>
+                </div>
+            </div>
+
+
+            <div class="user">
+                <div class="searchInp">
+                    <img src="../Assests/icons/searchdark.png" alt="">
+                    <input type="search" name="" id="" placeholder="Search here...">
+                </div>
+                <div class="userAvtar">
+
+                </div>
+
+                
+            </div>
+
+        </nav>
+
+
+        <div class="app-container">
+            <div class="showTask">
+
+                <div class="wallpaper">
+                    <div>
+                        <h2>Welcome to Tasks!</h2>
+                        <h1> Jyotirmoy</h1>
+                        <p>It does not matter how slowly you go as long as you do not stop.</p>
+                    </div>
+
+                </div>
+                <div class="dispTask">
+
+                    <div style="display: none;"><h4>Nothing to show.</h4></div>
+
+
+                    <div class="taskHeading">
+                        <h2 id="taskHeading">#Added New Task</h2>
+                    </div>
+                    <div id="dispTaskContainer" >
+
+                        <div style=" display: flex; align-items: center; height: 50px; max-height: 80px;width: 90%;margin-bottom: 10px;">
+                            <p>Title - </p>
+                            <h2 id="taskTitle" style="margin-left: 5px;" >Nothing to show.<h2>
+
+                        </div>
+                        <div style=" display: flex; align-items: center; height: 50px; max-height: 80px; width: 90%;">
+                            <p>Task - </p>
+                            <p id="taskContent" style="margin-left: 5px;">Nothing to show.</p>
+
+                        </div>
+                        <div id="taskMenu" style="display: none;">
+                            <button id="saveEditTask" style="display: none;"><img src="../Assests/icons/check.png" alt=""></button>
+                            <button id="editTask"><img src="../Assests/icons/edit.png" alt=""></button>
+                            <button id="deleteTask"><img src="../Assests/icons/trash.png" alt=""></button>
+                        </div>
+                    </div>
+               
+                  
+
+                </div>
+
+            </div>
+            <div class="createTask">
+                <div class="addTaskContainer">
+                    <div class="heading"><h1>Add Task...</h1></div>
+                    <div id="input-field">
+                        <div>
+                            <input id="title" type="text" placeholder="Title...">
+                            <input id="task" type="text" placeholder="Your task...">
+                        </div>
+                   
+                        <button id="addbtn">done</button></div>
+
+                </div>
+                <div class="allTaskListContainer">
+                    <h3 id="emptyStorageNtf" style="color:grey;display: none;">Nothing to show.</h3>
+            
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
